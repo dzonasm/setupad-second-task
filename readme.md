@@ -32,3 +32,9 @@ its possible to whitelist ips while denying every other ip adress by passing an 
 eg.: app.use(ipfilter(ips),{mode: "allow"});
 
 more documentation on the module can be found here https://www.npmjs.com/package/express-ipfilter
+
+## running app on your computer
+
+clone the repository to your computer using git clone
+install all dependencies with "npm install"
+run the script "npm run-script start:dev" to run the app using nodemon
